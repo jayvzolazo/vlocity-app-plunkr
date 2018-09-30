@@ -1,0 +1,57 @@
+body {
+  font-size: 0.8rem;
+}
+
+/* profile */
+.profile {
+  box-shadow: 0 5px #438eb9;
+}
+
+/* list-group */
+.list-group-item {
+  cursor: pointer;
+}
+.list-group-item:hover {
+  background-color: azure;
+}
+.list-group .list-group-item.active {
+  background-color: #438eb9;
+  border-color: #438eb9;
+  color: #ffffff;
+}
+.list-group .list-group-item.active:hover {
+  color: #ffffff;
+}
+
+/* borders */
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+.border.border-top-none {
+  border-top: 0 !important;
+}
+
+/* tabs */
+.nav-item {
+  color: dodgerblue !important;
+  cursor: pointer !important;
+}
+.nav-item .nav-link {
+  color: #495057 !important;
+}
+.nav-item .nav-link:hover {
+  color: #495057 !important;
+}
+.nav-item .nav-link.active{
+  font-weight: bold;
+  cursor: default;
+  border-top: 3px solid #eec75f;
+}
+.tab-content {
+  box-shadow: 0 5px #eec75f;
+}
+
+/* ratings */
+.fa-heart {
+  color: #f981c7;
+}
